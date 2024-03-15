@@ -62,14 +62,22 @@ fn index(client_info: ClientInfo) -> RawHtml<String> {
             <meta charset=\"UTF-8\">
             <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
             <title>Client Info</title>
-            <link rel=\"stylesheet\" href=\"/css/style.css\">
+            <link rel=\"stylesheet\" href=\"/css/missing.css\">
         </head>
         <body>
-            <h1>Client Information</h1>
-            <p>IP Address: {:?}</p>
-            <p>User Agent: {:?}</p>
-            <p>Cloudflare IP: {:?}</p>
-            <p>Cookies: {:?}</p>
+            <header>
+            </header>
+            
+            <main>
+                <h1>Client Information</h1>
+                <p>IP Address: {:?}</p>
+                <p>User Agent: {:?}</p>
+                <p>Cloudflare IP: {:?}</p>
+                <p>Cookies: {:?}</p>
+            </main>
+
+            <footer>
+            </footer>
         </body>
         </html>",
         ip_address, user_agent, cloudflare_ip, cookies

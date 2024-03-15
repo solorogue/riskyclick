@@ -839,6 +839,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c08c74e62047bb2de4ff487b251e4a92e24f48745648451635cec7d591162d9f"
 
 [[package]]
+name = "riskyclick"
+version = "0.1.0"
+dependencies = [
+ "rocket",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "rocket"
 version = "0.5.0-rc.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1044,15 +1053,6 @@ checksum = "7b5fac59a5cb5dd637972e5fca70daf0523c9067fcdc4842f053dae04a18f8e9"
 dependencies = [
  "libc",
  "windows-sys 0.48.0",
-]
-
-[[package]]
-name = "solorogueweb"
-version = "0.1.0"
-dependencies = [
- "rocket",
- "serde",
- "serde_json",
 ]
 
 [[package]]
