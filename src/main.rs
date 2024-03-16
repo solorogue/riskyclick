@@ -62,7 +62,7 @@ fn index(client_info: ClientInfo) -> RawHtml<String> {
             <meta charset=\"UTF-8\">
             <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
             <title>Client Info</title>
-            <link rel=\"stylesheet\" href=\"/css/missing.css\">
+            <link rel=\"stylesheet\" href=\"https://unpkg.com/missing.css@1.1.1/dist/missing.min.css\">
         </head>
         <body>
             <header>
